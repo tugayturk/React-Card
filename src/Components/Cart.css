@@ -1,0 +1,139 @@
+.card {
+  width: 90%;
+  height: 100%;
+  margin-top: 4%;
+}
+.cardBody {
+  background-color: rgb(240, 234, 234);
+}
+.cardTitle {
+  margin-left: 40%;
+}
+.todoInput {
+  width: 70%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 1%;
+  margin-top: 1.3rem;
+  margin-left: 0.8rem;
+  background-color: rgb(240, 234, 234);
+}
+.todoInput:focus {
+  outline: none;
+}
+.addButton {
+  margin-left: 0.9rem;
+  background-color: #676768;
+  border-style: none;
+  width: 12%;
+  border-radius: 5px;
+  padding: 0.4rem;
+  min-width: 20px;
+}
+.addButton:hover {
+  background-color: rgb(74, 192, 28);
+  width: 12.5%;
+}
+.deleteButton {
+  float: right;
+  height: 13%;
+}
+.liTodo {
+  margin-top: 0.3rem;
+  list-style-type: none;
+}
+.removeTodo {
+  margin-left: 10%;
+  border-radius: 50%;
+  background-color: #ee150e;
+  border-style: none;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 8%;
+  color: white;
+}
+.checkboxInput {
+  margin-right: 1rem;
+}
+input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+  color: rgb(224, 75, 75);
+}
+.titleInput {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-left: 0.8rem;
+  margin-top: 3rem;
+  width: 70%;
+  background-color: rgb(240, 234, 234);
+}
+.titleInput:focus {
+  outline: none;
+}
+
+.submitInputButton {
+  margin-left: 0.6rem;
+}
+.submitInput:focus {
+  outline: none;
+}
+::placeholder {
+  color: rgb(201, 122, 94);
+}
+.saveButton {
+  margin-left: 40%;
+  margin-top: 2rem;
+}
+.savedTitle {
+  color: rgb(15, 15, 15);
+  margin-left: 40%;
+  font-size: 1.5rem;
+}
+.selectCategory {
+  margin-top: 1rem;
+  margin-left: 0.8rem;
+  width: 90%;
+}
+.selectBox {
+  margin-left: 0.6rem;
+  border-radius: 5px;
+}
+.savedCard:hover {
+  opacity: 0.8;
+  background-color: darkgray;
+}
+.savedCard:hover .middle {
+  opacity: 1;
+}
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.editButton {
+  background-color: #0d2941;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.label {
+  font-size: 0.9rem;
+  margin-left: 0.9rem;
+  margin-top: 1rem;
+}
+.selectInput {
+  margin-left: 1.2rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #636568;
+  color: white;
+  padding: 0.4rem;
+  font-size: 0.8rem;
+}

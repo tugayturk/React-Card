@@ -1,0 +1,33 @@
+.categoriesDiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25%;
+  }
+  
+  .categoryInputDiv {
+    display: flex;
+    margin-left: 5%;
+    font-weight: bold;
+  }
+  .categoryInputDiv:hover{
+    text-decoration: underline;
+  }
+  .categoryLabel {
+    margin-left: 0.5rem;
+    font-size: 1rem;
+  }
+  .catgoryCheck[type="checkbox"]:checked + label {
+    text-decoration: none;
+    color: rgb(17, 100, 79);
+    }
+  .catgoryCheck {
+    margin-top: 0.5rem;
+  }
+  
+  .newCatInp:focus {
+    outline: none;
+  }
+  .newCatInp::placeholder {
+    color: thistle;
+  }
+  

@@ -1,0 +1,78 @@
+.Navi {
+    width: 230px;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #bcc9db, #43444b);
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .Navi:hover {
+    width: 288px;
+  }
+  .avatar {
+    vertical-align: middle;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 1%;
+    margin-top: 0.3%;
+  }
+  .userInfo {
+    margin-left: 20px;
+    font-size: 1.2rem;
+    margin-top: 1.5%;
+  }
+  .cardButton {
+    width: 100%;
+    min-width: 100px;
+    border-radius: 50px;
+    background-color: #4980d8;
+    border-style: none;
+    margin-top: 1.5rem;
+  }
+  
+  .cardButton:hover {
+    font-size: 1.2rem;
+  }
+  .Navi-top {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .newCatButton {
+    background-color: #7a807f;
+    width: 100%;
+    border-radius: 50px;
+    border-style: none;
+    margin-top: 0.3rem;
+  }
+  .newCatButton:hover {
+    background-image: linear-gradient(
+      to right,
+      rgb(136, 197, 130),
+      rgb(61, 61, 58)
+    );
+  }
+  
+  .newCategoryInput {
+    width: 100%;
+    border: none;
+    padding: 0.3rem;
+    border-radius: 10px;
+    background-color: #fefcbf;
+    margin-bottom: 0.3rem;
+  }
+  
+  .Navi-buttons {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    padding: 10px;
+  }
+  
