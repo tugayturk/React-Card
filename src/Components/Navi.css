@@ -65,6 +65,9 @@
     background-color: #fefcbf;
     margin-bottom: 0.3rem;
   }
+ .newCategoryInput:focus{
+    outline: none;
+  }
   
   .Navi-buttons {
     position: absolute;
