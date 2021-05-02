@@ -1,2 +1,2 @@
 # ToDo App
-https://tugayturk.netlify.app/cartpage
+https://tugayturk.netlify.app
